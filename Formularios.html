@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {color: blue;}
+    body{background-color: yellow;}
+    div{margin:10px;}
+
+</style>
+<body>
+    <h1>Formularios</h1>
+    <form method="get" action="grabar_registro.html">
+        <div>
+        <label for="nombreBanda">Nombre de la banda:</label>
+        <input type="text" name="nombreBanda" id="nombreBanda">
+        </div>
+        <div>
+            <input type="number" placeholder="Cantidad de Albunes" name="cantidaddeAlbunes" id="cantidaddeAlbunes"> 
+        </div>
+        <div>
+            <input type="password" placeholder="Contraseña" name="clave" id="clave">
+        </div>
+        <div>
+            <label for="">Acepta rendir el dia 16 de abril</label>
+            <input type="checkbox" name="aceptarTerminos" id="aceptarTerminos">
+        </div>
+        <div>
+        <label for="">Materias favoritas:</label>
+        <input type="checkbox" name="programacion" id="programacion"><span>Programacion</span>
+        <input type="checkbox" name="diseño" id="diseño"><span>Diseño</span>
+        <input type="checkbox" name="cine" id="cine"><span>Cine</span>
+        </div>
+        <div>
+            <label for="">Genero:</label>
+            <input type="radio" name="genero" value="femenino"><span>Femenino</span>
+            <input type="radio" name="genero" value="masculino"><span>Masculino</span>
+            <input type="radio" name="genero" value="otro"><span>Otro</span>
+        </div>
+        <div>
+            <label for="">Nacionalidad:</label>
+            <input type="checkbox" name="argentina" id="argentina"><span>Argentina</span>
+            <input type="checkbox" name="peru" id="peru"><span>Peru</span>
+        </div>
+        <div>
+            <label for="provincia">Seleccione su provincia</label>
+                <select name="provincia" id="provincia">
+                <option value="01">La Rioja</option>
+                <option value="02">San Juan</option>
+                <option value="03">Mendoza</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="comentario" placeholder="Añada un comentario"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
