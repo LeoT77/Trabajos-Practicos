@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkcyan;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+}
+#contenedor1 .casa {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+
+}
+#contenedor1 .chimenea {
+    position: absolute;
+    right: 65px;
+    top: 80px;
+}
+#contenedor1 .puerta {
+    position: absolute;
+    left: 73px;
+    bottom: 0;
+}
+.contenedores {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding: 10px;
+}
+.cielo {
+    width: 100%;
+    height: 100%;
+    color: skyblue;
+}
+.chimenea {
+    width: 15px;
+    height: 30px;
+    background: chocolate;
+}
+.casa {
+    width: 170px;
+    height: 170px;
+    background: #730714;
+}
+.ventanas {
+    width: 15px;
+    height: 30px;
+    background: skyblue;
+    border: solid 2px white;
+}
+.puerta {
+    width: 25px;
+    height: 50px;
+    background: orange;
+}

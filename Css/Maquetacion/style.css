@@ -1,0 +1,130 @@
+*{margin: 0; padding: 0;}
+.centro{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    min-height: 60px;
+}
+#logo{
+    width: 200px;
+    height: 100%;
+    float: left;
+    font-family: 'Courgette';
+    padding: 5px 0;
+    font-size: 2em;
+
+}
+#menuPrincipal{
+    width: 1000px;
+    float: right;
+}
+#menuPrincipal ul{
+    list-style: none;
+    float: right;
+}
+#menuPrincipal ul li{
+    text-align: center;
+    float: left;
+    height: 60px;
+    margin: 4px 2px 4px 2px;
+    
+}
+#menuPrincipal ul li a:link, #menuPrincipal ul li a:visited{
+    display: block;
+    width: 80px;
+    padding: 20px 8px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#menuPrincipal ul li a:hover{
+    color:rgb(60, 139, 222);
+    background-color: rgb(217, 217, 217);
+
+}
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+}
+#slider{
+    height: 370px;
+    width: 1180px;
+
+    
+}
+#slider img{
+    width: 100%;
+    height: 100%;
+}
+#detail{
+    height: 450px; 
+}
+#detail article{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    margin: 20px;
+}
+#detail article img{
+    width: 100%;
+}
+#detail article p{
+    margin: 5px;
+    height: 120px;
+}
+#detail article a{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(60, 139, 222);
+    display: block;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-right: 15px;
+}
+#welcome{
+    height: 150px;
+    
+}
+#aboutandnews{
+    height: 600px;
+}
+.about{
+   width: 750px;
+
+}
+#about{
+    width: 69%;
+    float: left;
+}
+#newEvents{
+    width: 29%;
+    float: left;
+    margin-left: 20px;
+}
+
+#newEvents li{
+    text-align: right;
+    list-style: none;
+    border-bottom: solid gray 1px;
+    padding: 8px 0;
+}
+#newEvents p{
+    text-align: left;
+    margin: 10px 0;
+}
+#newEvents .fecha, #newEvents a{
+    color: #086686;
+    text-decoration: none;
+}
+footer{
+    margin-top: 38%;
+    height: 90px;
+    text-align: center;
+}
