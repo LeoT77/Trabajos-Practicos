@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0;
+    background: whitesmoke;
+}
+.info {
+    padding: 10px 10px;
+    margin: 0 0 0 0;
+    background-color: deepskyblue;
+    font-size: 8px;
+    display: flex;
+}
+.ubicacion {
+    margin: 0 0 0 65px;
+}
+.mail {
+    margin: 0 0 0 25px;
+}
+.face {
+    margin: 0 8px 0 650px;
+}
+.google {
+    margin: 0 8px;
+}
+.x {
+    margin: 0 8px;
+}
+.linkedin {
+    margin: 0 8px;
+}
+.insta {
+    margin: 0 60px 0 8px;
+}
+#logo {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px 0 10px 25px;
+}
+nav ul {
+    display:flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    margin: -45px 10px 15px 0;
+}
+nav ul li {
+    padding: 0 30px 15px 0;
+    text-decoration: none;
+}
+.titulo {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+#principal {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 100px 80px 10px 80px;
+}
+#principal h1 {
+    margin: 15px;
+}
+#principal p {
+    margin: 15px;
+    color: gray;
+}
+.faq {
+    margin: 0 100px 5px 100px;
+    padding: 0 40px 0 40px;
+}
+.faq summary {
+    margin: 0 50px 0 50px;
+    padding: 0 0 0 10px;
+    background: deepskyblue;
+    user-select: none;
+    border-radius: 4px;
+}
+.faq details {
+    margin: 7px;
+    padding: 7px;
+}
+.content {
+    padding: 10px 20px;
+    text-align: center;
+}
+.process {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    text-align:left;
+    flex-direction: row;
+    padding: 0 0px 0 230px;
+    margin: 90px 20px 100px 20px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.products img {
+    background: whitesmoke;
+    margin: 30px 40px 20px 40px;
+    padding: 20px 20px 20px 20px;
+}
+.products h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-direction: row;
+}
+.products p {
+    margin: 10px 0 50px 0;
+    padding: 0;
+    text-align: center;
+    flex-direction: row;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
